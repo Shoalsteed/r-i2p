@@ -1,6 +1,7 @@
 # The Invisible Internet Project
 *"Cousin of R2D2"*
- The Invisible Internet Project began in 2002 and has been active since that time.
+
+The Invisible Internet Project began in 2002 and has been active since that time.
 
 ## How to Connect to the I2P Network
 The Invisible Internet Project provides software to download that connects you to the network. The core software (Java) includes a router that introduces and maintains a connection with the network. It also provides a handful of applications and configuration options to get you started and personalize your experience.
