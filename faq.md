@@ -66,7 +66,7 @@ Yes and no. Technically, you can use any browser that has support for proxies. H
 When you start your I2P router for the first time it will open in your default browser. If you open any browser and go to localhost (http://127.0.0.1:7657/home), you will see the router console. You can easily access the router in any browser this way.
 
 ## Cannot Reach I2P Sites
-If your router is running and you have shared clients and a browser either configured or are using [I2P in Private Browsing](https://addons.mozilla.org/en-US/firefox/addon/i2p-in-private-browsing/) (**I2P** **I**n **P**rivate **B**rwosing), check the I2P project website using the link found in /home in the router console. If you can reach that site, then you know that your connection is good and browser is working. If you cannot reach a specific site, please realize that we cannot help you with that.
+If your router is running and you have shared clients and a browser either configured or are using [**I2P** **I**n **P**rivate **B**rwosing](https://addons.mozilla.org/en-US/firefox/addon/i2p-in-private-browsing/) (I2PIPB), check the I2P project website using the link found in /home in the router console. If you can reach that site, then you know that your connection is good and browser is working. If you cannot reach a specific site, please realize that we cannot help you with that.
 
 ## How Do I Activate the SAM Bridge
 Enable the SAM API: Go to http://127.0.0.1:7657/configclients. Find the menu item called "SAM application bridge." Select "Run at Startup" and press the small arrow to the right of the text.
