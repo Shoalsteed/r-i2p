@@ -56,6 +56,10 @@ To access the I2P network you need to use software. The software sits at layer s
 ## Firewalled Status
 A firewalled I2P router can still access the I2P network.
 
+Open I2P's port on your modem, router and/or firewall(s) for better connectivity (ideally both UDP and TCP). More information on how to go about port forwarding can be easily found through a web search. Should you have any difficulties, you may request assistance in our forums and IRC channels listed below. Note that I2P does not support connecting to the internet via an http or socks proxy [patches welcome!], though you can connect to proxies via I2P itself once connected to the network.
+
+For more information about Port Forwarding: https://portforward.com/
+
 ## Does it matter which browser is used to access content on the I2P Network?
 Yes and no. Technically, you can use any browser that has support for proxies. However, some browsers are more secure than others. Also, depending on the browser, it may be more difficult to set up a proxy.
 
