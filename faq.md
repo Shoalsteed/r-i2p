@@ -133,7 +133,7 @@ You can use inproxies to surf the I2P network without having to have an I2P rout
 ### I2P Core Development Forums and Gitlab
 - [Main project site](http://i2p-projekt.i2p/) ([clearnet](https://geti2p.net/en/))
 - [I2P Forum](http://i2pforum.i2p/) ([clearnet](https://i2pforum.net/)) Official I2P community and development forum
-- [zzz](http://zzz.i2p/) zzz's personal website, old developers forum
+- [zzz](http://zzz.i2p/) I2P developers forum
 
 - [Inside I2P - (http://git.idk.i2p)](http://git.idk.i2p/)
 - [Outside I2P - (https://i2pgit.org)](https://i2pgit.org/)
