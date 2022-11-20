@@ -3,7 +3,7 @@
 
 The Invisible Internet Project began in 2002 and has been active since that time.
 
-## How to Connect to the I2P Network
+## How To Connect To The I2P Network
 The Invisible Internet Project provides software to download that connects you to the network. The core software (Java) includes a router that introduces and maintains a connection with the network. It also provides a handful of applications and configuration options to get you started and personalize your experience.
 
 I2Pd is a C++ implementation of the I2P protocol is differs from the I2P Java software in the following ways:
@@ -19,7 +19,7 @@ I2Pd documentation: https://i2pd.readthedocs.io/en/latest/
 ## What Can I Do On The I2P Network?
 The network provides an application layer that allows people to use and create familiar apps for daily use. Additionally, the network has its own unique DNS so that you can self host or mirror content on the network. You can create and own your own platform that you can add to the I2P directory or only invite your friends. The I2P network functions the same way the Internet does. The Java software includes a BitTorrent client, and email as well as a static website template. Other applications can easily be added to your router console.
 
-## How it Works
+## How It Works
 The server is hidden from the user and the user from the server. All I2P network traffic is internal to its network. Traffic inside the I2P network does not interact with the Internet directly. It is a layer on top of the Internet.
 It uses encrypted unidirectional tunnels between you and your peers to send traffic. No one can see where that traffic is coming from, where it is going, or what the contents are. Additionally I2P transports offers resistance to pattern recognition and blocking by censors. Because the network relies on peers to route traffic, location blocking is also reduced.
 
@@ -39,31 +39,31 @@ The I2P network is an overlay network. There are no dangers in using an overlay 
 ## OPSEC
 Keep track of what profiles you maintain and what services you interact with no matter what network you use. Perform personal risk assessments. The I2P Java software ships with very good defaults for hops for privacy without sacrificing performance.
  
-## What about "De-Anonymizing" attacks?
+## What About "De-Anonymizing" Attacks?
 Reducing anonymity is typically done by:
 A) identifying characteristics that are consistent across identities or
 B) identifying ephemeral characteristics of repeated connections.
 
 Attacks on I2P in the past have relied on correlating NetDB storage and verification. By randomizing the delay between storage and verification, we reduce the consistency with which that verification can be linked to I2P activity, thereby limiting the utility of that data point. Attacks on software configured to work with I2P are out of scope for I2P to solve. When browsing I2P, hosting or using I2P services, it is the responsibility of the user to consider their threat model.
 
-## Are MAC addresses visible when using I2P?
+## Are MAC Addresses Visible When Using I2P?
 To access the I2P network you need to use software. The software sits at layer seven of the OSI model, so no, a MAC address is not visible.
 
 ## Firewalled Status
 A firewalled I2P router can still access the I2P network.
 
-## Does it matter which browser is used to access content on the I2P Network?
+## Does It Matter Which Browser Is Used To Access Content On The I2P Network?
 Yes and no. Technically, you can use any browser that has support for proxies. However, some browsers are more secure than others. Also, depending on the browser, it may be more difficult to set up a proxy.
 
 When you start your I2P router for the first time it will open in your default browser. If you open any browser and go to localhost (http://127.0.0.1:7657/home), you will see the router console. You can easily access the router in any browser this way.
 
-## Cannot reach I2P sites
+## Cannot Reach I2P Sites
 If your router is running and you have shared clients and a browser either configured or are using I2PIPB, check the I2P project website using the link found in /home in the router console. If you can reach that site, then you know that your connection is good and browser is working. If you cannot reach a specific site, please realize that we cannot help you with that.
 
 ## How Do I Activate the SAM Bridge
 Enable the SAM API: Go to http://127.0.0.1:7657/configclients. Find the menu item called "SAM application bridge." Select "Run at Startup" and press the small arrow to the right of the text.
 
-## How come router 'shutdown' takes several minutes? is it bad to shutdown immediately?
+## How Come Router 'Shutdown' Takes Several Minutes? Is It Bad To Shutdown Immediately?
 Because you are routing traffic for other peers. If you shutdown your router immediately, you interrupt their traffic.
 
 ## Browsing Resources
@@ -118,7 +118,7 @@ _The Tor Project is not I2P's competition, surveillance and creeping authoritari
 Support Tor users_
 [Blizzard: The I2P Snowflake donor Plugin](https://eyedeekay.github.io/)
 
-## I found a bug!
+## I Found A Bug!
 
 Great, we are happy about every bug found.
 
