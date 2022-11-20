@@ -24,7 +24,7 @@ The server is hidden from the user and the user from the server. All I2P network
 It uses encrypted unidirectional tunnels between you and your peers to send traffic. No one can see where that traffic is coming from, where it is going, or what the contents are. Additionally I2P transports offers resistance to pattern recognition and blocking by censors. Because the network relies on peers to route traffic, location blocking is also reduced.
 
 ## Distribution
-All traffic on the I2P network is encrypted. An observer cannot see a message's contents, source, or destination. All traffic you route as a participant is internal to the I2P network, you are not an exit node. The network does not do distributed storage of its content. By participating as a node you are not storing content for anyone.
+All traffic on the I2P network is encrypted. An observer cannot see a message's contents, source, or destination. All traffic you route as a participant is internal to the I2P network, you are not an exit node. The network does not do distributed storage of its content. By participating as a node you are not storing content for anyone. (like in Freenet or in IPFS)
 If there are hidden services which you dislike, you may refrain from visiting them. Your router will not request any content without your specific instruction to do so.
 
 ## Best OS To Use
@@ -122,14 +122,16 @@ Support Tor users_
 
 Great, we are happy about every bug found.
 
-- https://i2pgit.org/i2p-hackers/i2p.i2p for I2P Desktop and the core Java library, clearnet
-- http://git.idk.i2p/i2p-hackers/i2p.i2p for I2P Desktop and the core Java library, in-I2P
-- https://i2pgit.org/i2p-hackers/i2p.android.base for I2P Android and the client helper Java library, clearnet
-- http://git.idk.i2p/i2p-hackers/i2p.android.base for I2P Android and the client helper Java library, in-I2P
-- https://i2pgit.org/i2p-hackers/i2p.firefox for I2P Firefox profile + Freestanding Jpackage(Easy-install), clearnet
-- http://git.idk.i2p/i2p-hackers/i2p.firefox for I2P Firefox profile + Freestanding Jpackage(Easy-install), in-I2P
-- https://i2pgit.org/i2p-hackers/i2p-jpackage-mac for Certified DMG + Freestanding Jpackage(Easy-install Mac), clearnet
-- http://git.idk.i2p/i2p-hackers/i2p-jpackage-mac for Certified DMG + Freestanding Jpackage(Easy-install Mac), in-I2P
+**I Found A Bug!**
+
+I2P Core Java Software, clearnet https://i2pgit.org/i2p-hackers/i2p.i2p 
+I2P Core Java Software, I2P Network  http://git.idk.i2p/i2p-hackers/i2p.i2p 
+Android, clearnet https://i2pgit.org/i2p-hackers/i2p.android.base 
+Android, I2P Network http://git.idk.i2p/i2p-hackers/i2p.android.base 
+I2P Firefox profile + Freestanding Jpackage(Easy-install), clearnet https://i2pgit.org/i2p-hackers/i2p.firefox 
+I2P Firefox profile + Freestanding Jpackage(Easy-install), I2P Network http://git.idk.i2p/i2p-hackers/i2p.firefox 
+Certified DMG + Freestanding Jpackage(Easy-install Mac), clearnet https://i2pgit.org/i2p-hackers/i2p-jpackage-mac 
+Certified DMG + Freestanding Jpackage(Easy-install Mac), I2P Network  http://git.idk.i2p/i2p-hackers/i2p-jpackage-mac 
 
 There is also a .onion endpoint: http://47ggr2fa3vnwfyhvgskzdmr3i32eijwymxohtxsls45dulmriwxszjad.onion/
 
