@@ -77,69 +77,68 @@ Because you are routing traffic for other peers. If you shutdown your router imm
 ## Browsing Resources
 
 ### Proxy Configuration
-[I2P in Private Browsing Mode](https://addons.mozilla.org/en-US/firefox/addon/i2p-in-private-browsing/)
+- [I2P in Private Browsing Mode](https://addons.mozilla.org/en-US/firefox/addon/i2p-in-private-browsing/)
 This extension is included in the I2P core Windows software. If you are not a Windows user, it can be added from Firefox Browser Add-ons.
 
-[How to tweak a Chromium Based Browser to work with I2P](https://eyedeekay.github.io/I2P-Configuration-For-Chromium/)
+- [How to tweak a Chromium Based Browser to work with I2P](https://eyedeekay.github.io/I2P-Configuration-For-Chromium/)
 
-[Configuring Privacy Browser for I2P on Android](https://eyedeekay.github.io/)
+- [Configuring Privacy Browser for I2P on Android](https://eyedeekay.github.io/)
 
-[Browser Configuration Guide](https://geti2p.net/en/about/browser-config)
+- [Browser Configuration Guide](https://geti2p.net/en/about/browser-config)
 
 ### Outproxy
-[StormyCloud](https://stormycloud.org/)
-[Purokishi outproxy](http://outproxy.purokishi.i2p/) by IncogNet
+- [StormyCloud](https://stormycloud.org/)
+- [Purokishi outproxy](http://outproxy.purokishi.i2p/) by IncogNet
 
 ### Service Directories
-http://notbob.i2p/
-http://reg.i2p/
+- http://notbob.i2p/
+- http://reg.i2p/
 
 ### Search Engines
-[Legwork search engine](http://legwork.i2p/)
-[Another i2p search engine by OnionLand](http://i2psearch.i2p/)
-[Another i2p search engine provided by idk](http://yacy.idk.i2p/)
+- [Legwork search engine](http://legwork.i2p/)
+- [Another i2p search engine by OnionLand](http://i2psearch.i2p/)
+- [Another i2p search engine provided by idk](http://yacy.idk.i2p/)
 
 ### Inproxies
 You can use inproxies to surf the I2P network without having to have an I2P router.
-https://i2phides.me/
-https://onion.ly/
-https://www.darknetproxy.com/
+- https://i2phides.me/
+- https://onion.ly/
+- https://www.darknetproxy.com/
 
 ### I2P Name Registries
-[stats.i2p](http://stats.i2p/) operated by zzz
-[inr.i2p](http://inr.i2p/)
-[reg.i2p](http://reg.i2p/) operated by PurpleI2P Team
-[dns.chudo.i2p](http://dns.chudo.i2p/)
-[isitup.i2p](http://isitup.i2p/) Another I2P Name Registry and checking tools to see if a eepsite is offline.
+- [stats.i2p](http://stats.i2p/) operated by zzz
+- [inr.i2p](http://inr.i2p/)
+- [reg.i2p](http://reg.i2p/) operated by PurpleI2P Team
+- [dns.chudo.i2p](http://dns.chudo.i2p/)
+- [isitup.i2p](http://isitup.i2p/) Another I2P Name Registry and checking tools to see if a eepsite is offline.
 
 ### File Hosting and Pastebins
-[i2push](http://i2push.i2p/) File hosting
-[FS](http://fs.i2p/) Filesharing service
-[PrivateBin](http://paste.r4sas.i2p/) Encrypted pastebin
-[Pasta NoJS](http://pasta-nojs.i2p/) Basic pastebin (JavaScript-free)
+- [i2push](http://i2push.i2p/) File hosting
+- [FS](http://fs.i2p/) Filesharing service
+- [PrivateBin](http://paste.r4sas.i2p/) Encrypted pastebin
+- [Pasta NoJS](http://pasta-nojs.i2p/) Basic pastebin (JavaScript-free)
 
 ### Torrents
-[PaTracker](http://tracker2.postman.i2p/) Main torrent tracker
-[DifTracker](http://diftracker.i2p/) (French) torrent tracker
+- [PaTracker](http://tracker2.postman.i2p/) Main torrent tracker
+- [DifTracker](http://diftracker.i2p/) (French) torrent tracker
 
 ### Tutorials
-[Generating an eepsite vanity address](https://www.bentasker.co.uk/posts/documentation/general/generating-an-i2p-eepsite-vanity-address.html#) (i2pd)
-[Multi-homing a site between the WWW and an I2P Eepsite](https://www.bentasker.co.uk/posts/blog/privacy/multi-homing-a-site-between-www-and-i2p-eepsite.html#) (i2pd)
-[How to set up untraceable websites (eepsites) on I2P](https://mhatta.medium.com/how-to-set-up-untraceable-websites-eepsites-on-i2p-1fe26069271d)
-[Easy censorship-resistant communication with Syndie](https://mhatta.medium.com/easy-censorship-resistant-communication-with-syndie-e063a6c9cf35)
-[The Hitchhiker’s Guide to the I2P eepsites](https://mhatta.medium.com/the-hitchhikers-guide-to-the-i2p-eepsites-e4dfe6bb7a45)
+- [Generating an eepsite vanity address](https://www.bentasker.co.uk/posts/documentation/general/generating-an-i2p-eepsite-vanity-address.html#) (i2pd)
+- [Multi-homing a site between the WWW and an I2P Eepsite](https://www.bentasker.co.uk/posts/blog/privacy/multi-homing-a-site-between-www-and-i2p-eepsite.html#) (i2pd)
+- [How to set up untraceable websites (eepsites) on I2P](https://mhatta.medium.com/how-to-set-up-untraceable-websites-eepsites-on-i2p-1fe26069271d)
+- [Easy censorship-resistant communication with Syndie](https://mhatta.medium.com/easy-censorship-resistant-communication-with-syndie-e063a6c9cf35)
+- [The Hitchhiker’s Guide to the I2P eepsites](https://mhatta.medium.com/the-hitchhikers-guide-to-the-i2p-eepsites-e4dfe6bb7a45)
 
 
 ### I2P Core Development Forums and Gitlab
-[Main project site](http://i2p-projekt.i2p/) ([clearnet](https://geti2p.net/en/))
-[I2P Forum](http://i2pforum.i2p/) ([clearnet](https://i2pforum.net/)) Official I2P community and development forum
-[zzz](http://zzz.i2p/) zzz's personal website, old developers forum
+- [Main project site](http://i2p-projekt.i2p/) ([clearnet](https://geti2p.net/en/))
+- [I2P Forum](http://i2pforum.i2p/) ([clearnet](https://i2pforum.net/)) Official I2P community and development forum
+- [zzz](http://zzz.i2p/) zzz's personal website, old developers forum
 
-[Inside I2P - (http://git.idk.i2p)](http://git.idk.i2p/)
-[Outside I2P - (https://i2pgit.org)](https://i2pgit.org/)
+- [Inside I2P - (http://git.idk.i2p)](http://git.idk.i2p/)
+- [Outside I2P - (https://i2pgit.org)](https://i2pgit.org/)
 
-The read-only mirror is also still available at github:
-[GitHub mirror](https://github.com/i2p/i2p.i2p):
+- The read-only mirror is also still available at github: [GitHub mirror](https://github.com/i2p/i2p.i2p)
 
 **The Tor Project is not I2P's competition, surveillance and creeping authoritarianism is
 Support Tor users**
