@@ -36,6 +36,10 @@ Yes, this is how a fully distributed peer-to-peer network works. Every node part
 ## Is Using I2P Dangerous?
 The I2P network is an overlay network. There are no dangers in using an overlay network. If you are engaging activities that are illegal or dangerous on the internet, that does not change if you are using an overlay network.
 
+Regarding using overlay networks, the Java implementation includes a "Strict Countries List" that is used to decide how I2P routers should behave within regions where applications like I2P may be limited by law. For example, while no countries that we know of prohibit using I2P, some have broad prohibitions on participating in routing for others. Routers that appear to be in the "Strict" countries will automatically be placed into "Hidden" mode.
+
+When a router is placed into hidden mode, three key things change about its behavior. It will no longer publish a routerInfo to the NetDB, it will no longer accept participating tunnels, and it will reject direct connections to routers in the same country that it is in. These defenses make the routers more difficult to enumerate reliably, and prevent them from running afoul of restrictions on routing traffic for others.
+
 ## OPSEC
 Keep track of what profiles you maintain and what services you interact with no matter what network you use. Perform personal risk assessments. The I2P Java software ships with very good defaults for hops for privacy without sacrificing performance.
  
@@ -66,9 +70,9 @@ Enable the SAM API: Go to http://127.0.0.1:7657/configclients. Find the menu ite
 ## How come router 'shutdown' takes several minutes? is it bad to shutdown immediately?
 Because you are routing traffic for other peers. If you shutdown your router immediately, you interrupt their traffic.
 
-**Browsing Resources**
+## Browsing Resources
 
-**Proxy Configuration**
+### Proxy Configuration
 [I2P in Private Browsing Mode](https://addons.mozilla.org/en-US/firefox/addon/i2p-in-private-browsing/)
 This extension is included in the I2P core Windows software. If you are not a Windows user, it can be added from Firefox Browser Add-ons.
 
@@ -78,41 +82,43 @@ This extension is included in the I2P core Windows software. If you are not a Wi
 
 [Browser Configuration Guide](https://geti2p.net/en/about/browser-config)
 
-**Outproxy**
-[StormyCloud]( https://stormycloud.org/)
+### Outproxy
+[StormyCloud](https://stormycloud.org/)
+[Purokishi outproxy](http://outproxy.purokishi.i2p/) by IncogNet
 
-**Service Directories**
+### Service Directories
 http://notbob.i2p/
-http://identiguy.i2p/
+http://reg.i2p/
 
-**Search Engines**
+### Search Engines
 [Legwork search engine](http://legwork.i2p/)
 [Another i2p search engine by OnionLand](http://i2psearch.i2p/)
 [Another i2p search engine provided by idk](http://yacy.idk.i2p/)
 
-**Inproxies**
+### Inproxies
 You can use inproxies to surf the I2P network without having to have an I2P router.
 https://i2phides.me/
 https://onion.ly/
 https://www.darknetproxy.com/
 
-**I2P Name Registries**
+### I2P Name Registries
+[stats.i2p](http://stats.i2p/) operated by zzz
 [inr.i2p](http://inr.i2p/)
 [reg.i2p](http://reg.i2p/) operated by PurpleI2P Team
 [dns.chudo.i2p](http://dns.chudo.i2p/)
 [isitup.i2p](http://isitup.i2p/) Another I2P Name Registry and checking tools to see if a eepsite is offline.
 
-**File Hosting and Pastebins**
+### File Hosting and Pastebins
 [i2push](http://i2push.i2p/) File hosting
 [FS](http://fs.i2p/) Filesharing service
 [PrivateBin](http://paste.r4sas.i2p/) Encrypted pastebin
 [Pasta NoJS](http://pasta-nojs.i2p/) Basic pastebin (JavaScript-free)
 
-**Torrents**
+### Torrents
 [PaTracker](http://tracker2.postman.i2p/) Main torrent tracker
 [DifTracker](http://diftracker.i2p/) (French) torrent tracker
 
-**Tutorials** 
+### Tutorials
 [Generating an eepsite vanity address](https://www.bentasker.co.uk/posts/documentation/general/generating-an-i2p-eepsite-vanity-address.html#) (i2pd)
 [Multi-homing a site between the WWW and an I2P Eepsite](https://www.bentasker.co.uk/posts/blog/privacy/multi-homing-a-site-between-www-and-i2p-eepsite.html#) (i2pd)
 [How to set up untraceable websites (eepsites) on I2P](https://mhatta.medium.com/how-to-set-up-untraceable-websites-eepsites-on-i2p-1fe26069271d)
@@ -120,7 +126,7 @@ https://www.darknetproxy.com/
 [The Hitchhiker’s Guide to the I2P eepsites](https://mhatta.medium.com/the-hitchhikers-guide-to-the-i2p-eepsites-e4dfe6bb7a45)
 
 
-**I2P Core Development Forums and Gitlab**
+### I2P Core Development Forums and Gitlab
 [Main project site](http://i2p-projekt.i2p/) ([clearnet](https://geti2p.net/en/))
 [I2P Forum](http://i2pforum.i2p/) ([clearnet](https://i2pforum.net/)) Official I2P community and development forum
 [zzz](http://zzz.i2p/) zzz's personal website, old developers forum
@@ -133,8 +139,8 @@ The read-only mirror is also still available at github.
 [GitHub mirror](https://github.com/i2p/i2p.i2p):
 git clone https://github.com/i2p/i2p.i2p.git
 
-**The Tor Project is not I2P's competition, surveillance and creeping authoritarianism is**
-Support Tor users 
+_The Tor Project is not I2P's competition, surveillance and creeping authoritarianism is
+Support Tor users_
 [Blizzard: The I2P Snowflake donor Plugin](https://eyedeekay.github.io/)
 
 ## I found a bug!
