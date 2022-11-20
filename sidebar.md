@@ -4,17 +4,8 @@
 The Invisible Internet Project began in 2002 and has been active since that time.
 
 ## How To Connect To The I2P Network
-The Invisible Internet Project provides software to download that connects you to the network. The core software (Java) includes a router that introduces and maintains a connection with the network. It also provides a handful of applications and configuration options to get you started and personalize your experience.
-
-I2Pd is a C++ implementation of the I2P protocol is differs from the I2P Java software in the following ways:
-- Java I2P has built-in applications for torrents, e-mail and so on. I2Pd is just a router which you can use with other software through I2CP interface.
-- With I2Pd you work with configuration files. With Java I2P it is possible to change the settings in the web interface.
-- I2Pd is written in C++ and Java I2P is written in Java.
-- I2Pd consumes less memory and CPU.
-- I2Pd has some major optimizations for faster cryptography which leads to less consumption of processor time and energy.
-
-I2Pd: https://i2pd.website/
-I2Pd documentation: https://i2pd.readthedocs.io/en/latest/
+The core software (Java) includes a router that introduces and maintains a connection with the network. It also provides a handful of applications and configuration options to get you started and personalize your experience. 
+I2Pd is a C++ implementation of the I2P protocol. When using I2Pd you will need to edit configuration files, with Java I2P you can do it all within a user interface.
 
 ## What Can I Do On The I2P Network?
 The network provides an application layer that allows people to use and create familiar apps for daily use. Additionally, the network has its own unique DNS so that you can self host or mirror content on the network. You can create and own your own platform that you can add to the I2P directory or only invite your friends. The I2P network functions the same way the Internet does. The Java software includes a BitTorrent client, and email as well as a static website template. Other applications can easily be added to your router console.
@@ -24,7 +15,7 @@ The server is hidden from the user and the user from the server. All I2P network
 It uses encrypted unidirectional tunnels between you and your peers to send traffic. No one can see where that traffic is coming from, where it is going, or what the contents are. Additionally I2P transports offers resistance to pattern recognition and blocking by censors. Because the network relies on peers to route traffic, location blocking is also reduced.
 
 ## Distribution
-All traffic on the I2P network is encrypted. An observer cannot see a message's contents, source, or destination. All traffic you route as a participant is internal to the I2P network, you are not an exit node. The network does not do distributed storage of its content. By participating as a node you are not storing content for anyone (like in Freenet or in IPFS).
+All traffic on the I2P network is encrypted. An observer cannot see a message's contents, source, or destination. All traffic you route as a participant is internal to the I2P network, you are not an exit node. The network does not do distributed storage of its content (like Freenet or IPFS). By participating as a node you are not storing content for anyone. 
 If there are hidden services which you dislike, you may refrain from visiting them. Your router will not request any content without your specific instruction to do so.
 
 ## Best OS To Use
@@ -34,17 +25,21 @@ The I2P core software is cross platform. The best OS to use is the one that you 
 Yes, this is how a fully distributed peer-to-peer network works. Every node participates in routing packets for others, so your IP address must be known to establish connections. While the fact that your computer runs I2P software is public, nobody can see your activities in the network. For instance, you cannot see if a user behind an IP address is sharing files, hosting a website, doing research or just running a node to contribute bandwidth to the network.
 
 ## Is Using I2P Dangerous?
-The I2P network is an overlay network. There are no dangers in using an overlay network. If you are engaging activities that are illegal or dangerous on the internet, that does not change if you are using an overlay network.
+The I2P network is an overlay network. There are no dangers in using an overlay network. If you are engaging activities that are illegal or dangerous on the internet, that does not change if you are using an overlay network. 
+
+Regarding using overlay networks, the Java implementation  includes a "Strict Countries List" that is used to decide how I2P routers should behave within regions where applications like I2P may be limited by law. For example, while no countries that we know of prohibit using I2P, some have broad prohibitions on participating in routing for others. Routers that appear to be in the "Strict" countries will automatically be placed into "Hidden" mode.
+
+When a router is placed into hidden mode, three key things change about its behavior. It will no longer publish a routerInfo to the NetDB, it will no longer accept participating tunnels, and it will reject direct connections to routers in the same country that it is in. These defences make the routers more difficult to enumerate reliably, and prevent them from running afoul of restrictions on routing traffic for others.
 
 ## OPSEC
 Keep track of what profiles you maintain and what services you interact with no matter what network you use. Perform personal risk assessments. The I2P Java software ships with very good defaults for hops for privacy without sacrificing performance.
  
 ## What About "De-Anonymizing" Attacks?
-Reducing anonymity is typically done by:
-A) identifying characteristics that are consistent across identities or
-B) identifying ephemeral characteristics of repeated connections.
+Reducing anonymity is typically done by: 
+A) identifying characteristics that are consistent across identities or 
+B) identifying ephemeral characteristics of repeated connections. 
 
-Attacks on I2P in the past have relied on correlating NetDB storage and verification. By randomizing the delay between storage and verification, we reduce the consistency with which that verification can be linked to I2P activity, thereby limiting the utility of that data point. Attacks on software configured to work with I2P are out of scope for I2P to solve. When browsing I2P, hosting or using I2P services, it is the responsibility of the user to consider their threat model.
+Attacks on I2P in the past have relied on correlating NetDB storage and verification. By randomizing the delay between storage and verification, we reduce the consistency with which that verification can be linked to I2P activity, thereby limiting the utility of that data point. **Attacks on software configured to work with I2P are out of scope for I2P to solve**. When browsing I2P, hosting or using  I2P services, it is the responsibility of the user to consider their threat model. 
 
 ## Are MAC Addresses Visible When Using I2P?
 To access the I2P network you need to use software. The software sits at layer seven of the OSI model, so no, a MAC address is not visible.
