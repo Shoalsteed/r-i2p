@@ -24,7 +24,7 @@ The server is hidden from the user and the user from the server. All I2P network
 It uses encrypted unidirectional tunnels between you and your peers to send traffic. No one can see where that traffic is coming from, where it is going, or what the contents are. Additionally I2P transports offers resistance to pattern recognition and blocking by censors. Because the network relies on peers to route traffic, location blocking is also reduced.
 
 ## Distribution
-All traffic on the I2P network is encrypted. An observer cannot see a message's contents, source, or destination. All traffic you route as a participant is internal to the I2P network, you are not an exit node. The network does not do distributed storage of its content. By participating as a node you are not storing content for anyone. (like in Freenet or in IPFS)
+All traffic on the I2P network is encrypted. An observer cannot see a message's contents, source, or destination. All traffic you route as a participant is internal to the I2P network, you are not an exit node. The network does not do distributed storage of its content. By participating as a node you are not storing content for anyone (like in Freenet or in IPFS).
 If there are hidden services which you dislike, you may refrain from visiting them. Your router will not request any content without your specific instruction to do so.
 
 ## Best OS To Use
@@ -50,7 +50,11 @@ Attacks on I2P in the past have relied on correlating NetDB storage and verifica
 To access the I2P network you need to use software. The software sits at layer seven of the OSI model, so no, a MAC address is not visible.
 
 ## Firewalled Status
-A firewalled I2P router can still access the I2P network.
+A firewalled I2P router can still access the I2P network. However, if you want to provide extra capacity to the network, it is necessary to open ports. 
+
+Open [I2P's port](http://127.0.0.1:7657/confignet) on your modem, router and/or firewall(s) for better connectivity (ideally both UDP and TCP). More information on how to go about port forwarding can be easily found through a web search. Should you have any difficulties, you may request assistance in our forums and IRC channels listed below. Note that I2P does not support connecting to the internet via an http or socks proxy [patches welcome!], though you can connect to proxies via I2P itself once connected to the network.
+
+For more information about Port Forwarding: https://portforward.com/ 
 
 ## Does It Matter Which Browser Is Used To Access Content On The I2P Network?
 Yes and no. Technically, you can use any browser that has support for proxies. However, some browsers are more secure than others. Also, depending on the browser, it may be more difficult to set up a proxy.
