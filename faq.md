@@ -137,14 +137,12 @@ https://www.darknetproxy.com/
 
 [Inside I2P - (http://git.idk.i2p)](http://git.idk.i2p/)
 [Outside I2P - (https://i2pgit.org)](https://i2pgit.org/)
-git clone https://i2pgit.org/i2p-hackers/i2p.i2p.git
-The read-only mirror is also still available at github.
 
+The read-only mirror is also still available at github:
 [GitHub mirror](https://github.com/i2p/i2p.i2p):
-git clone https://github.com/i2p/i2p.i2p.git
 
-_The Tor Project is not I2P's competition, surveillance and creeping authoritarianism is
-Support Tor users_
+**The Tor Project is not I2P's competition, surveillance and creeping authoritarianism is
+Support Tor users**
 [Blizzard: The I2P Snowflake donor Plugin](https://eyedeekay.github.io/)
 
 ## I found a bug!
