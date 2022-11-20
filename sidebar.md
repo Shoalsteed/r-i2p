@@ -66,8 +66,57 @@ Enable the SAM API: Go to http://127.0.0.1:7657/configclients. Find the menu ite
 ## How come router 'shutdown' takes several minutes? is it bad to shutdown immediately?
 Because you are routing traffic for other peers. If you shutdown your router immediately, you interrupt their traffic.
 
+## Browsing Resources
 
-LINKS - I need the markdown for it
+### Proxy Configuration
+[I2P in Private Browsing Mode](https://addons.mozilla.org/en-US/firefox/addon/i2p-in-private-browsing/)
+This extension is included in the I2P core Windows software. If you are not a Windows user, it can be added from Firefox Browser Add-ons.
+
+[How to tweak a Chromium Based Browser to work with I2P](https://eyedeekay.github.io/I2P-Configuration-For-Chromium/)
+
+[Configuring Privacy Browser for I2P on Android](https://eyedeekay.github.io/)
+
+[Browser Configuration Guide](https://geti2p.net/en/about/browser-config)
+
+### Outproxy
+[StormyCloud](https://stormycloud.org/)
+[Purokishi outproxy](http://outproxy.purokishi.i2p/) by IncogNet
+
+### Service Directories
+http://notbob.i2p/
+http://reg.i2p/
+
+### Search Engines
+[Legwork search engine](http://legwork.i2p/)
+[Another i2p search engine by OnionLand](http://i2psearch.i2p/)
+[Another i2p search engine provided by idk](http://yacy.idk.i2p/)
+
+### Inproxies
+You can use inproxies to surf the I2P network without having to have an I2P router.
+https://i2phides.me/
+https://onion.ly/
+https://www.darknetproxy.com/
+
+### I2P Name Registries
+[stats.i2p](http://stats.i2p/) operated by zzz
+[inr.i2p](http://inr.i2p/)
+[reg.i2p](http://reg.i2p/) operated by PurpleI2P Team
+[dns.chudo.i2p](http://dns.chudo.i2p/)
+[isitup.i2p](http://isitup.i2p/) Another I2P Name Registry and checking tools to see if a eepsite is offline.
+
+### File Hosting and Pastebins
+[i2push](http://i2push.i2p/) File hosting
+[FS](http://fs.i2p/) Filesharing service
+[PrivateBin](http://paste.r4sas.i2p/) Encrypted pastebin
+[Pasta NoJS](http://pasta-nojs.i2p/) Basic pastebin (JavaScript-free)
+
+### Torrents
+[PaTracker](http://tracker2.postman.i2p/) Main torrent tracker
+[DifTracker](http://diftracker.i2p/) (French) torrent tracker
+
+_The Tor Project is not I2P's competition, surveillance and creeping authoritarianism is
+Support Tor users_
+[Blizzard: The I2P Snowflake donor Plugin](https://eyedeekay.github.io/)
 
 ## I found a bug!
 
