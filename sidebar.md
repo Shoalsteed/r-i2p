@@ -124,14 +124,14 @@ Great, we are happy about every bug found.
 
 **I Found A Bug!**
 
-I2P Core Java Software, clearnet https://i2pgit.org/i2p-hackers/i2p.i2p 
-I2P Core Java Software, I2P Network  http://git.idk.i2p/i2p-hackers/i2p.i2p 
-Android, clearnet https://i2pgit.org/i2p-hackers/i2p.android.base 
-Android, I2P Network http://git.idk.i2p/i2p-hackers/i2p.android.base 
-I2P Firefox profile + Freestanding Jpackage(Easy-install), clearnet https://i2pgit.org/i2p-hackers/i2p.firefox 
-I2P Firefox profile + Freestanding Jpackage(Easy-install), I2P Network http://git.idk.i2p/i2p-hackers/i2p.firefox 
-Certified DMG + Freestanding Jpackage(Easy-install Mac), clearnet https://i2pgit.org/i2p-hackers/i2p-jpackage-mac 
-Certified DMG + Freestanding Jpackage(Easy-install Mac), I2P Network  http://git.idk.i2p/i2p-hackers/i2p-jpackage-mac 
+- I2P Core Java Software, clearnet https://i2pgit.org/i2p-hackers/i2p.i2p 
+- I2P Core Java Software, I2P Network  http://git.idk.i2p/i2p-hackers/i2p.i2p 
+- Android, clearnet https://i2pgit.org/i2p-hackers/i2p.android.base 
+- Android, I2P Network http://git.idk.i2p/i2p-hackers/i2p.android.base 
+- I2P Firefox profile + Freestanding Jpackage(Easy-install), clearnet https://i2pgit.org/i2p-hackers/i2p.firefox 
+- I2P Firefox profile + Freestanding Jpackage(Easy-install), I2P Network http://git.idk.i2p/i2p-hackers/i2p.firefox 
+- Certified DMG + Freestanding Jpackage(Easy-install Mac), clearnet https://i2pgit.org/i2p-hackers/i2p-jpackage-mac 
+- Certified DMG + Freestanding Jpackage(Easy-install Mac), I2P Network  http://git.idk.i2p/i2p-hackers/i2p-jpackage-mac
 
 There is also a .onion endpoint: http://47ggr2fa3vnwfyhvgskzdmr3i32eijwymxohtxsls45dulmriwxszjad.onion/
 
