@@ -16,7 +16,7 @@ This extension is included in the I2P core Windows software. If you are not a Wi
 - [Purokishi](http://outproxy.purokishi.i2p/)
 
 ## Service Directories
-- http://notbob.i2p/
+- [http://notbob.i2p/](http://notbob.i2p/)
 
 ## Search Engines
 - [Legwork search engine](http://legwork.i2p/)
@@ -24,7 +24,7 @@ This extension is included in the I2P core Windows software. If you are not a Wi
 
 ## Inproxies
 You can use inproxies to surf the I2P network without having to have an I2P router.
-- [https://i2phides.me/](https://i2phides.me/
+- [https://i2phides.me/](https://i2phides.me/)
 - [https://onion.ly/](https://onion.ly/)
 - [https://www.darknetproxy.com/](https://www.darknetproxy.com/)
 
